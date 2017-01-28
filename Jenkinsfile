@@ -1,0 +1,7 @@
+node('assistant') {
+
+   sh """
+	pwd
+   """
+
+}
