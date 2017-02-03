@@ -1,5 +1,5 @@
 node('assistant') {
-   properties([pipelineTriggers([[$class: 'GitHubPushTrigger'], pollSCM('* * * * *')])])
+   properties([pipelineTriggers([[$class: 'GitHubPushTrigger']])])
    checkout scm
    sh """
 	pwd
