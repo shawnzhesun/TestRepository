@@ -9,3 +9,4 @@ node('assistant') {
    println scm.branches[0].name
     
 }
+  
